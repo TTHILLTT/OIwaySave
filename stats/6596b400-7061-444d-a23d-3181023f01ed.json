@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "minecraft:dropped": {
+      "minecraft:stick": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:stick": 2
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 3148,
+      "minecraft:time_since_rest": 5037,
+      "minecraft:walk_one_cm": 4668,
+      "minecraft:total_world_time": 5457,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 66237,
+      "minecraft:crouch_one_cm": 832,
+      "minecraft:sneak_time": 498,
+      "minecraft:play_time": 5037,
+      "minecraft:jump": 18,
+      "minecraft:time_since_death": 5037,
+      "minecraft:drop": 2
+    },
+    "minecraft:used": {
+      "minecraft:barrier": 30,
+      "minecraft:oak_planks": 4
+    }
+  },
+  "DataVersion": 4671
+}
