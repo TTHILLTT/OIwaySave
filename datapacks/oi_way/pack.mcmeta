@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "OI之路的配套数据包",
+    "min_format": [
+      94,
+      1
+    ],
+    "max_format": 94
+  }
+}

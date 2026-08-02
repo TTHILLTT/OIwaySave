@@ -1,0 +1,2 @@
+execute at @a run playsound minecraft:entity.item.pickup master @a
+tellraw @a {"translate":"<%s%s> %s", with: [{"type":"object", "player":"red_wood_"}, {"text": "red_wood_", color: "yellow"}, "6666,还敢乱动老子电脑,我早就把电源按钮行为改成\"不执行任何操作\"了,你个臭**"]}

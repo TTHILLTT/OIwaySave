@@ -1,0 +1,1 @@
+schedule function oi_way:dialogue/bedroom2/1 140t

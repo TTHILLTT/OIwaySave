@@ -1,0 +1,1 @@
+execute at @e[tag=night] if entity @p[distance=..2] run time set night

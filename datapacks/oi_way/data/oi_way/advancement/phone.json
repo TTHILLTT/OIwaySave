@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "player_interacted": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": {"Tags": ["phone"]}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "oi_way:phone/phone"
+    }
+}

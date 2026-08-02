@@ -1,0 +1,2 @@
+tag @n[type=interaction,tag=phone] remove taken
+data modify entity @n[type=item_display,tag=phone] item set value {id: "minecraft:stick", count: 1, components: {"minecraft:custom_name": {italic: 0b, text: "oi_way:items/phone", color: "yellow"}, "minecraft:custom_model_data": {strings: ["oi_way:phone"]}}}
