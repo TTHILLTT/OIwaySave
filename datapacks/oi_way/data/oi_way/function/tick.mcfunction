@@ -13,7 +13,7 @@ execute if score ani2 global matches 1 as @a run spectate d18e29c8-2c3a-47bd-bb4
 execute if score exam_time global matches 1.. run function oi_way:exam/tick
 execute if score exam_time global matches 0 run function oi_way:exam/tle
 
-title @a[x=110.0,y=-60.0,z=16.0,dx=14,dy=0,dz=0] actionbar {"text":"小心前方有F1赛车经过","color":"red"}
+title @a[x=110.0,y=-60.0,z=16.0,dx=14,dy=0,dz=0] actionbar {"translate":"小心前方有F1赛车经过","color":"red"}
 
 execute positioned 155.50 -53.00 9.5 unless score parkour_luck global matches 1 if entity @p[distance=..1,nbt={OnGround:1b}] run function oi_way:dialogue/parkour/1
 execute if score parkour_checkpoint global matches ..0 positioned 155.5 -50.00 17.5 if entity @p[distance=..1,nbt={OnGround:1b}] run function oi_way:parkour/checkpoint/1

@@ -1,5 +1,5 @@
 execute at @a run playsound minecraft:entity.item.pickup master @a
-tellraw @a {"translate":"<%s> %s", with: [{"text": "妈", color: "yellow"}, "没事,我相信他能行"]}
+tellraw @a {"translate":"<%s> %s", with: [{"translate": "妈", color: "yellow"}, {"translate":"没事,我相信他能行"}]}
 
 title @a times 20 360 20
 
